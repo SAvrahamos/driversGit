@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FsFilter", "FsFilter.vcxproj", "{5DF39183-6336-4071-8B94-2BDB472DC9B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Debug|ARM64.Build.0 = Debug|ARM64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Debug|x64.ActiveCfg = Debug|x64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Debug|x64.Build.0 = Debug|x64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Debug|x64.Deploy.0 = Debug|x64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Release|ARM64.ActiveCfg = Release|ARM64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Release|ARM64.Build.0 = Release|ARM64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Release|ARM64.Deploy.0 = Release|ARM64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Release|x64.ActiveCfg = Release|x64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Release|x64.Build.0 = Release|x64
+		{5DF39183-6336-4071-8B94-2BDB472DC9B3}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B8ED249-08EE-4EF7-AFB0-29D2C960A013}
+	EndGlobalSection
+EndGlobal
