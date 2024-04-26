@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\driversGit\\FSFilter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04508966-9A53-4338-BFAB-A642BC8BB94B}|FSFilter.vcxproj|C:\\Users\\jonat\\OneDrive\\Desktop\\driversGit\\FSFilter\\FSFilter.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{04508966-9A53-4338-BFAB-A642BC8BB94B}|FSFilter.vcxproj|solutionrelative:FSFilter.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04508966-9A53-4338-BFAB-A642BC8BB94B}|FSFilter.vcxproj|C:\\Users\\jonat\\OneDrive\\Desktop\\driversGit\\FSFilter\\myFilter.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04508966-9A53-4338-BFAB-A642BC8BB94B}|FSFilter.vcxproj|solutionrelative:myFilter.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FSFilter.inf",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\driversGit\\FSFilter\\FSFilter.inf",
+              "RelativeDocumentMoniker": "FSFilter.inf",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\driversGit\\FSFilter\\FSFilter.inf",
+              "RelativeToolTip": "FSFilter.inf",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002933|",
+              "WhenOpened": "2024-04-26T09:35:57.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "myFilter.c",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\driversGit\\FSFilter\\myFilter.c",
+              "RelativeDocumentMoniker": "myFilter.c",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\driversGit\\FSFilter\\myFilter.c",
+              "RelativeToolTip": "myFilter.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-26T09:35:40.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

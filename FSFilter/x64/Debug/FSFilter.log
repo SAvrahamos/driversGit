@@ -1,0 +1,10 @@
+﻿  Building 'FSFilter' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\FSFilter.inf
+  Stamping [Version] section with DriverVer=04/26/2024,13.24.49.735
+C:\Users\jonat\OneDrive\Desktop\driversGit\FSFilter\FSFilter.inf : warning 1420: [DefaultInstall]-based INF cannot be processed as Primitive.
+C:\Users\jonat\OneDrive\Desktop\driversGit\FSFilter\FSFilter.inf(19-19): warning 1421: Section [DefaultInstall] should have an architecture decoration.
+C:\Users\jonat\OneDrive\Desktop\driversGit\FSFilter\FSFilter.inf(30-30): warning 1421: Section [DefaultUninstall] should have an architecture decoration.
+C:\Users\jonat\OneDrive\Desktop\driversGit\FSFilter\FSFilter.inf(66-66): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  myFilter.c
+BufferOverflowFastFailK.lib(gs_driverentry.obj) : error LNK2019: unresolved external symbol DriverEntry referenced in function GsDriverEntry
+C:\Users\jonat\OneDrive\Desktop\driversGit\FSFilter\x64\Debug\FSFilter.sys : fatal error LNK1120: 1 unresolved externals

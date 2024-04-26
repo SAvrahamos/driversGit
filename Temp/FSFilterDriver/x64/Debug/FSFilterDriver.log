@@ -1,0 +1,9 @@
+﻿  Building 'FSFilterDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\FSFilterDriver.inf
+  Stamping [Version] section with DriverVer=04/26/2024,13.11.51.402
+C:\Users\jonat\OneDrive\Desktop\driversGit\Temp\FSFilterDriver\FSFilterDriver.inf : error 1420: [DefaultInstall]-based INF cannot be processed as Primitive.
+C:\Users\jonat\OneDrive\Desktop\driversGit\Temp\FSFilterDriver\FSFilterDriver.inf(5-5): warning 1324: [Version] section should specify PnpLockdown=1 to prevent external apps from modifying installed driver files.
+C:\Users\jonat\OneDrive\Desktop\driversGit\Temp\FSFilterDriver\FSFilterDriver.inf(19-19): warning 2083: Section [codeworks.ntamd64] not referenced or used.
+C:\Users\jonat\OneDrive\Desktop\driversGit\Temp\FSFilterDriver\FSFilterDriver.inf(25-25): error 1421: Section [DefaultInstall] should have an architecture decoration.
+C:\Users\jonat\OneDrive\Desktop\driversGit\Temp\FSFilterDriver\FSFilterDriver.inf(36-36): error 1421: Section [DefaultUninstall] should have an architecture decoration.
+C:\Users\jonat\OneDrive\Desktop\driversGit\Temp\FSFilterDriver\FSFilterDriver.inf(72-72): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.

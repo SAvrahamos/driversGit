@@ -1,0 +1,62 @@
+;
+; MiniFilter.inf
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class = ActivityMonitor
+ClassGuid = {b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}
+Provider    = ; set Provider in stampinf property pages (Done. Project -> Props -> Stampinf -> General)
+CatalogFile = ; set Catalog File Name in stampinf property pages (Done. Project -> Props -> Stampinf -> General)
+DriverVer   = ; set DriverVer in stampinf property pages (Done. Project -> Props -> Stampinf -> General)
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+MiniFilter.sys = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName% = Standard,NT$ARCH$.10.0...16299 ; %13% support introduced in build 16299
+
+[Standard.NT$ARCH$.10.0...16299]
+%MiniFilter.DeviceDesc% = MiniFilter_Device, Root\MiniFilter ; TODO: edit hw-id
+
+[MiniFilter_Device.NT]
+CopyFiles = File_Copy
+
+[File_Copy]
+MiniFilter.sys
+
+;-------------- Service installation
+[MiniFilter_Device.NT.Services]
+AddService = MiniFilter,%SPSVCINST_ASSOCSERVICE%, MiniFilter_Service_Inst
+
+; -------------- MiniFilter driver install sections
+[MiniFilter_Service_Inst]
+DisplayName    = %MiniFilter.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\MiniFilter.sys
+
+[MiniFilter_Device.NT.Wdf]
+KmdfService = MiniFilter, MiniFilter_wdfsect
+
+[MiniFilter_wdfsect]
+KmdfLibraryVersion = $KMDFVERSION$
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName = "ShiraAvraham" 
+DiskName = "MiniFilter Installation Disk"
+MiniFilter.DeviceDesc = "MiniFilter Device"
+MiniFilter.SVCDESC = "MiniFilter Service"
